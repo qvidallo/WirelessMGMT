@@ -76,7 +76,7 @@ conf t
  !
  ip dhcp excluded-address 10.42.1.1 10.42.1.100
  ip dhcp excluded-address 10.42.10.1 10.42.10.100
- ip dhcp pool POOLDATA
+ ip dhcp pool MGMTDATA
   network 10.42.1.0 255.255.255.0
   default-router 10.42.1.4
   dns-server 10.42.1.10
