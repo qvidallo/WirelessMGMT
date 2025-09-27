@@ -81,7 +81,7 @@ conf t
   default-router 10.42.1.4
   dns-server 10.42.1.10
   domain-name MGMTDATA.COM
- ip dhcp pool POOLWIFI
+ ip dhcp pool WIFIDATA
   network 10.42.10.0 255.255.255.0
   default-router 10.42.10.4
   dns-server 10.42.1.10
